@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Rezi_Test/static/css/main.85f6a072.css",
+    "main.js": "/Rezi_Test/static/js/main.f7c1ba01.js",
+    "index.html": "/Rezi_Test/index.html",
+    "main.85f6a072.css.map": "/Rezi_Test/static/css/main.85f6a072.css.map",
+    "main.f7c1ba01.js.map": "/Rezi_Test/static/js/main.f7c1ba01.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.85f6a072.css",
+    "static/js/main.f7c1ba01.js"
+  ]
+}
