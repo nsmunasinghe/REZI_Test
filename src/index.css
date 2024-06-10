@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    @apply font-sans text-xs font-normal scroll-smooth;
+}
+
+.btnTab{
+    @apply px-4 py-2 mb-4 mr-6 text-sm font-bold rounded-md bg-slate-200 hover:bg-blue-600 hover:text-white active:bg-blue-700 md:text-sm xl:text-base
+}
+
+#form-contact label{
+    @apply text-base font-bold md:text-lg xl:text-xl;
+}
+
+#form-contact label span{
+    @apply font-light;
+}
+
+#form-contact input{
+    @apply 
+    w-full h-16 px-5 mt-[2px] mb-5 border-2 border-solid rounded-md
+    text-base font-medium placeholder-slate-400
+    focus:outline-none focus:border-sky-200 focus:placeholder-transparent
+    invalid:border-pink-500 invalid:text-pink-600 focus:invalid:border-pink-500 focus:invalid:ring-pink-500
+    md:text-lg
+    xl:text-xl xl:h-20 xl:rounded-xl;
+}
+
+.btnSubmit{
+    @apply 
+    px-10 py-5 text-lg font-bold text-white bg-blue-700 rounded-md active:bg-blue-800 md:self-end;
+}
+
+.cmbSelect {
+    @apply w-full h-16 px-5 mt-[2px] mb-5 border-2 border-solid rounded-md
+    text-base font-medium placeholder-slate-400
+    focus:outline-none focus:border-sky-200 focus:placeholder-transparent
+    md:text-lg
+    xl:text-xl xl:h-20 xl:rounded-xl;
+}
